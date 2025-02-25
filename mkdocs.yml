@@ -37,7 +37,7 @@ markdown_extensions:
   - attr_list
 
 extra:
-  languages:
+  alternate:
     - name: English
       link: /en/
       lang: en
