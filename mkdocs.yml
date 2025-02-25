@@ -51,7 +51,7 @@ extra:
       link: /ja/
       lang: ja
 
-site_url: https://buildlangfromkid.cc
+site_url: https://www.buildlangfromkid.cc
 use_directory_urls: true
 
 deploy:
