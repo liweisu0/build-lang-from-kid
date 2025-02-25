@@ -13,9 +13,12 @@ theme:
     - content.code.copy
     - language.selector
 
+docs_dir: docs
+site_dir: site
+
 nav:
   - English:
-    - Home: en/index.md
+    - Home: index.md
     - Chinese: en/chinese.md
     - English: en/english.md
     - Japanese: en/japanese.md
@@ -39,7 +42,7 @@ markdown_extensions:
 extra:
   alternate:
     - name: English
-      link: /en/
+      link: /
       lang: en
     - name: 中文
       link: /zh/
@@ -47,3 +50,9 @@ extra:
     - name: 日本語
       link: /ja/
       lang: ja
+
+site_url: https://buildlangfromkid.cc
+use_directory_urls: true
+
+deploy:
+  - provider: gh-pages
