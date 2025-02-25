@@ -1,0 +1,49 @@
+site_name: Build Lang From Kid
+theme:
+  name: material
+  palette:
+    primary: teal
+    accent: orange
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - content.tabs.link
+    - content.code.copy
+    - language.selector
+
+nav:
+  - English:
+    - Home: en/index.md
+    - Chinese: en/chinese.md
+    - English: en/english.md
+    - Japanese: en/japanese.md
+  - 中文:
+    - 主页: zh/index.md
+    - 中文: zh/chinese.md
+    - 英语: zh/english.md
+    - 日语: zh/japanese.md
+  - 日本語:
+    - ホーム: ja/index.md
+    - 中国語: ja/chinese.md
+    - 英語: ja/english.md
+    - 日本語: ja/japanese.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+
+extra:
+  languages:
+    - name: English
+      link: /en/
+      lang: en
+    - name: 中文
+      link: /zh/
+      lang: zh
+    - name: 日本語
+      link: /ja/
+      lang: ja
